@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+}
+
+header nav {
+  height: 60px;
+  background-color: floralwhite;
+}
+
+nav #main-nav {
+  text-align: right;
+  font-size: 20px;
+}
+
+nav #main-nav li {
+  line-height: 60px; /* 수직-가운데 */
+  padding: 0 20px;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f9f9f9;
+  font-family: sans-serif;
+}
+
+.profile-img {
+  margin: 30px;
+
+  width: 300px; /* 가로 크기 */
+  border-radius: 10%; /* 동그랗게 */
+  object-fit: cover; /* 사진 비율 유지하면서 꽉 차게 */
+  border: 1px solid #333;
+}
+
+.profile {
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.qualifications {
+  max-width: 800px;
+  margin: 0 auto; /* 가운데 정렬 */
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.qualifications h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.qualifications ul {
+  list-style-type: "✔ ";
+  padding-left: 20px;
+}
+
+.qualifications li {
+  margin: 8px 0;
+  color: #555;
+  font-size: 16px;
+}
+
+.work-experience {
+  max-width: 800px;
+  margin: 0 auto; /* 가운데 정렬 */
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.work-experience h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.work-experience ul {
+  padding-left: 20px;
+}
+
+.work-experience li {
+  margin: 8px 0;
+  color: #555;
+  font-size: 16px;
+}
+
+.watch {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  /* 모바일 */
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+}
